@@ -127,7 +127,7 @@ const Header: FC = () => {
                         alt={"product image"}
                       />
                       <div className="ml-4 flex-1 relative h-16 ">
-                        <p className="text-sm truncate w-36  md:w-56 font-courierPrime ">
+                        <p className="text-sm truncate w-32  md:w-56 font-courierPrime ">
                           {item.name}
                         </p>
                         <p className="text-xs text-gray-500 font-courierPrime">
