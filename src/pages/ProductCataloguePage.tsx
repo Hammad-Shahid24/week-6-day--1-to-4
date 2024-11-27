@@ -7,14 +7,13 @@ import {
   ChevronRightIcon,
   FunnelIcon,
   EyeIcon,
-  ShoppingCartIcon,
   ShoppingBagIcon,
 } from "@heroicons/react/20/solid";
 import Swal from "sweetalert2";
 import { RootState } from "../app/store";
 import { useSelector, useDispatch } from "react-redux";
 import { Product } from "../types/Product";
-import { addItem, removeItem, updateQuantity } from "../redux/cart/cartSlice";
+import { addItem, updateQuantity } from "../redux/cart/cartSlice";
 import { toast } from "react-toastify";
 
 const ProductCataloguePage: FC = () => {
